@@ -1,0 +1,17 @@
+{
+    "type": "reef:pdf",
+    "pdf": "namespace:patched_plateaus_main_screen_presentation_template",
+    "page_count": 1,
+    "overrides": {
+        "<page_number>": {
+            "_1": "Omit overrides if you don't plan to use any of Reef's extra features",
+            "_2": "Read https://github.com/Trioplane/reef/wiki/definition_schemas (page section) to know what to write here.",
+            "_3": "Example below:"
+        },
+        "0": {
+            "commands": {
+                "on_enter": ["tellraw @a 'This command triggers when the first page shows up.'"]
+            }
+        }
+    }
+}
