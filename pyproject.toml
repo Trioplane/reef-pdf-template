@@ -1,0 +1,10 @@
+[project]
+name = "reef-pdf-template"
+version = "1.0.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.14"
+dependencies = [
+    "beet>=0.116.0",
+    "reef-beet-plugin>=1.0.0b7",
+]
